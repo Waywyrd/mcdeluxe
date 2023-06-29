@@ -1,0 +1,95 @@
+menu_title: 'Main Menu'
+open_command: menu
+size: 18
+
+items:
+  'votes':
+    material: EMERALD_BLOCK
+    slot: 0
+    display_name: "Vote"
+    lore:
+      - "Vote for the server and receive rewards!"
+    left_click_commands: 
+      - '[player] vote'
+  'ranks':
+    material: DIAMOND_BLOCK
+    slot: 1
+    display_name: "Player Ranks"
+    left_click_commands:
+      - '[player] ranks'
+  'pe':
+    material: COAL_BLOCK
+    slot: 2
+    display_name: "PE Boons"
+    left_click_commands:
+      - '[player] pe'
+  'kits':
+    material: REDSTONE
+    slot: 3
+    display_name: "Kits"
+    left_click_commands:
+      - '[player] kitsmenu'
+  'enchanter':
+    material: BOOK
+    slot: 4
+    display_name: "Custom Enchants"
+    left_click_commands:
+      - '[player] ce'
+  'shop':
+    material: GOLD_BLOCK
+    slot: 5
+    display_name: "Shop"
+    left_click_commands:
+      - '[player] shop'
+  'warps':
+    material: ENDER_PEARL
+    slot: 6
+    display_name: "Warps"
+    left_click_commands:
+      - '[player] warps'
+  'buy':
+    material: GOLD_ORE
+    slot: 7
+    display_name: "Server Donor Ranks"
+    left_click_commands:
+      - '[player] buy'
+  'claims':
+    material: GOLDEN_SHOVEL
+    slot: 8
+    display_name: "Claims Info"
+    left_click_commands:
+      - '[player] claimmenu'
+  'jobs':
+    material: DIAMOND_PICKAXE
+    slot: 9
+    display_name: "Jobs"
+    lore:
+      - "Join a job and make money!"
+    left_click_commands:
+      - '[player] jobs browse'
+  'world':
+    material: GUNPOWDER
+    slot: 10
+    display_name: "Current World/Server"
+    left_click_commands:
+      - '[player] worldlist'
+  'pets':
+    material: TURTLE_EGG
+    slot: 11
+    display_name: "Pet Info"
+    left_click_commands:
+      - '[player] petmenu'
+  'features':
+    material: IRON_BLOCK
+    slot: 12
+    display_name: "Server Main Features"
+    left_click_commands:
+      - '[player] features'
+
+
+## Don't know shit about pets
+## Redstone limits/server info
+## Redeem/mcmmo
+## RTP
+## /echest
+## personal vaults

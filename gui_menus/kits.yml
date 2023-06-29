@@ -1,0 +1,97 @@
+menu_title: 'Kits'
+open_command: kitsmenu
+size: 26
+
+items:
+  'starter':
+    material: STICK
+    slot: 10
+    display_name: "Starter Kit"
+    lore:
+      - ""
+    left_click_commands:
+      - '[player] kit starter'
+      - '[close]'
+  'food':
+    material: COOKED_PORKCHOP
+    slot: 12
+    display_name: "Food Kit - 2 Day Cooldown"
+    lore:
+      - "64 Steak"
+      - "64 Cooked Chicken"
+      - "64 Cooked Porkchop"
+    left_click_commands:
+      - '[player] kit food'
+      - '[close]'
+  'xpkit':
+    material: EXPERIENCE_BOTTLE
+    slot: 4
+    display_name: "Experience Kit - 2 Day Cooldown"
+    lore: 
+      - "32 Enchant Bottles"
+    left_click_commands:
+      - '[player] kit exp'
+  'miningkit':
+    material: DIAMOND_PICKAXE
+    slot: 14
+    display_name: "Mining Kit - 5 Day Cooldown"
+    lore:
+      - "Diamond Pick - Eff V + Silk Touch + Unbreaking X"
+      - "Diamond Pick - Eff V + Fortune III + Unbreaking X"
+    left_click_commands:
+      - '[player] kit mining'
+      - '[close]'
+  'redstonekit':
+    material: REDSTONE
+    slot: 16
+    display_name: "Redstone Kit - 3 Day Cooldown"
+    lore:
+      - "64 Redstone x3"
+      - "16 Comparators"
+      - "16 Repeaters"
+      - "16 Pistons"
+      - "3 Observers"
+    left_click_commands:
+      - '[player] kit redstone'
+      - '[close]'
+  'spawnerkit':
+    material: SPAWNER
+    slot: 22
+    display_name: "Spawner Kit - 5 Day Cooldown"
+    lore:
+      - "3 Pig Spawners"
+      - "2 Chicken Spawn Eggs"
+      - "1 Cow Spawn Egg"
+    left_click_commands:
+      - '[player] kit spawner'
+      - '[close]'
+  'back':
+    material: PAPER
+    slot: 26
+    display_name: "Back to Previous Page"
+    left_click_commands:
+      - '[player] menu'
+  'filler1':
+    material: WHITE_STAINED_GLASS_PANE
+    slots: 
+      - 0
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 11
+      - 13
+      - 15
+      - 17
+      - 18
+      - 19
+      - 20
+      - 21
+      - 23
+      - 24
+      - 25
+    display_name: " "

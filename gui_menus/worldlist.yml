@@ -1,0 +1,29 @@
+menu_title: 'Server Worlds'
+open_command: worldlist
+size: 9
+
+items:
+  'hub':
+    material: DIAMOND
+    slot: 0
+    display_name: "Join Hub"
+    left_click_commands:
+      - '[player] server lobby'
+  'factions:'
+    material: GOLD_ORE
+    slot: 1
+    display_name: "Join Factions"
+    left_click_commands:
+      - '[player] server factions'
+  'survival'
+    material: COAL_ORE
+    slot: 2
+    display_name: "Join Survival"
+    left_click_commands:
+      - '[player] server survival'
+  'skyblock':
+    material: IRON_ORE
+    slot: 3
+    display_name: "Join Skyblock"
+    left_click_commands:
+      - '[player] server skyblock'

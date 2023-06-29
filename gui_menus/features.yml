@@ -1,0 +1,60 @@
+menu_title: 'Features'
+open_command: features
+size: 18
+
+items:
+  'griefdefender':
+    material: GOLDEN_SHOVEL
+    slot: 2
+    display_name: "Grief Defender"
+    lore:
+      - "Claim land with a golden shovel."
+      - "Main Commands:"
+      - "Abandon Claim: /abandonclaim"
+      - "Expand Claim: /claimexpand [numeral] [direction]"
+      - "Alter claim properties: /claimlist"
+      - "Change claim flags: /cf"
+      - "To subdivide a claim: /subdivideclaims"
+  'itemchestsorter':
+    material: CHEST
+    slot: 12
+    display_name: "Item Chest Sorter"
+    lore: 
+      - "TBD"
+  'voidchests':
+    material: ENDER_CHEST
+    slot: 14
+    display_name: "Void Chests"
+    lore:
+      - "Place down a void chest, usually acquired via voting."
+      - "It will automatically collect items in the current chunk and"
+      - "sell them to /shop."
+  'quickshops':
+    material: GOLD_INGOT
+    slot: 6
+    display_name: "Quick Shops"
+    lore: 
+      - "Shift-Left Click a chest with the item you wish to sell in hand."
+      - "It will prompt you for a price that you wish to sell your items."
+      - "This is PER item."
+      - "For further help, click here or type /quickshop"
+    left_click_commands:
+      - '[player] quickshop'
+      - '[close]'
+  'mcmmo':
+    material: DIAMOND_SWORD
+    slot: 4
+    display_name: "MCMMO"
+    lore:
+      - "This server runs mcMMO!"
+      - "Train various skills for additional benefits as you level."
+      - "Use /redeem to redeem bonus MCMMO points."
+      - "Click here to find additional information for each skill."
+    left_click_commands:
+      - '[player] mcmmoinfo'
+  'back':
+    material: PAPER
+    slot: 17
+    display_name: "Back to Previous Page."
+    left_click_commands:
+      - '[player] menu'

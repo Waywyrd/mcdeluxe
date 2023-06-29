@@ -1,0 +1,248 @@
+menu_title: 'MCMMO Info'
+open_command: mcmmoinfo
+size: 18
+
+items:
+  'acrobatics':
+    material: LEATHER_BOOTS
+    slot: 0
+    display_name: "Acrobatics"
+    lore:
+      - "About Acrobatics:"
+      - " "
+      - "Acrobatics is the art of moving gracefully in mcMMO."
+      - "It provides combat bonuses and environment damage bonuses."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "To gain XP in this skill you need to perform a dodge"
+      - "in combat or survive falls from heights that damage you."
+    left_click_commands:
+      - '[player] acrobaticsinfo'
+  'alchemy':
+    material: POTION
+    slot: 1
+    display_name: "Alchemy"
+    lore:
+      - "About Alchemy:"
+      - " "
+      - "Alchemy is about brewing potions."
+      - "It provides a speed increase in the potion brew time, as well"
+      - "as the addition of new (previously) unobtainable potions."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "To gain XP in this skill you need to brew potions"
+    left_click_commands:
+      - '[player] alchemyinfo'
+  'archery':
+    material: BOW
+    slot: 2
+    display_name: "Archery"
+    lore:
+      - "About Archery:"
+      - " "
+      - "Archery is about shooting with your bow and arrow."
+      - "It provides various combat bonuses, such as a damage boost"
+      - "that scales with your level and the ability to daze your"
+      - "opponents in PvP. In addition to this, you can retrieve"
+      - "some of your spent arrows from the corpses of your foes."
+    left_click_commands:
+      - '[player] archeryinfo'
+  'axes':
+    material: DIAMOND_AXE
+    slot: 3
+    display_name: "Axes"
+    lore:
+      - "About Axes:"
+      - " "
+      - "With the Axes skill you can use your axe for much more than"
+      - "just deforesting! You can hack and chop away at mobs"
+      - "and players to gain XP, hitting mobs with the effect of"
+      - "knockback and inflicting DEADLY criticals on mobs and players."
+      - "Your axe also becomes a hand-held woodchipper,"
+      - "breaking down the enemy's armor with ease as your level increases."
+    left_click_commands:
+      - '[player] axesinfo'
+  'excavation':
+    material: DIAMOND_SHOVEL
+    slot: 4
+    display_name: "Excavation"
+    lore:
+      - "About Excavation:"
+      - " "
+      - "Excavation is the act of digging up dirt to find treasures."
+      - "By excavating the land you will find treasures."
+      - "The more you do this the more treasures you can find."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "To gain XP in this skill you must dig with a shovel in hand."
+      - "Only certain materials can be dug up for treasures and XP."
+    left_click_commands:
+      - '[player] excavationinfo'
+  'fishing':
+    material: FISHING_ROD
+    slot: 5
+    display_name: "Fishing"
+    lore: 
+      - "About Fishing:"
+      - " "
+      - "With the fishing skill, fishing is exciting again!"
+      - "Find hidden treasures and shake items off mobs."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "Catch fish."
+    left_click_commands:
+      - '[player] fishinginfo'
+  'herbalism':
+    material: FARMLAND
+    slot: 6
+    display_name: "Herbalism"
+    lore:
+      - "About Herbalism:"
+      - " "
+      - "Herbalism is about collecting herbs and plants."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "Collect plants and herbs."
+    left_click_commands:
+      - '[player] herbalisminfo'
+  'mining':
+    material: DIAMOND_PICKAXE
+    slot: 7
+    display_name: "Mining"
+    lore:
+      - "About Mining:"
+      - " "
+      - "Mining consists of mining stone and ores. It provides bonuses"
+      - "to the amount of materials dropped while mining."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "To gain XP in this skill, you must mine with a pickaxe in hand."
+      - "Only certain blocks award XP."
+    left_click_commands:
+      - '[player] mininginfo'
+  'repair':
+    material: ANVIL
+    slot: 8
+    display_name: "Repair"
+    lore:
+      - "About Repair:"
+      - " "
+      - "Repair allows you to use an iron block to repair armor and"
+      - "tools."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "Repair tools or armor using the mcMMO anvil. This is an"
+      - "iron block by default and should not be confused with"
+      - "the vanilla minecraft anvil."
+    left_click_commands:
+      - '[player] repairinfo'
+  'swords':
+    material: DIAMOND_SWORD
+    slot: 9
+    display_name: "Swords"
+    lore:
+      - "About Swords:"
+      - " "
+      - "This skill awards combat bonuses to anyone fighting with a"
+      - "sword."
+      - " "
+      - "XP Gain:" 
+      - " "
+      - "XP is gained based on the amount of damage dealt to mobs or"
+      - "other players while wielding a sword."
+    left_click_commands:
+      - '[player] swordsinfo'
+  'taming':
+    material: BONE
+    slot: 10
+    display_name: "Taming"
+    lore: 
+      - "About Taming:"
+      - " "
+      - "Taming will give players various combat bonuses while using"
+      - "tamed wolves."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "To gain XP in this skill, you need to tame wolves/ocelots or"
+      - "get into combat with your wolves."
+    left_click_commands:
+      - '[player] taminginfo'
+  'unarmed':
+    material: STICK
+    slot: 11
+    display_name: "Unarmed"
+    lore:
+      - "About Unarmed:"
+      - " "
+      - "Unarmed will give players various combat bonuses while using"
+      - "your fists as a weapon."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "XP is gained based on the amount of damage dealt to mobs"
+      - "or other players while unarmed."
+    left_click_commands:
+      - '[player] unarmedinfo'
+  'woodcutting':
+    material: OAK_WOOD
+    slot: 12
+    display_name: "Woodcutting"
+    lore:
+      - "About Woodcutting:"
+      - " "
+      - "Woodcutting is all about chopping down trees."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "XP is gained whenever you break log blocks."
+    left_click_commands:
+      - '[player] woodcuttinginfo'
+  'salvage':
+    material: IRON_INGOT
+    slot: 13
+    display_name: "Salvage"
+    lore:
+      - "About Salvage:"
+      - " "
+      - "Salvage allows you to use a gold block to salvage armor and"
+      - "tools."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "Salvage is a child skill of repair and fishing, your salvage"
+      - "skill level is based on your fishing and repair skill levels."
+    left_click_commands:
+      - '[player] salvageinfo'
+  'smelting':
+    material: COAL
+    slot: 14
+    display_name: "Smelting"
+    lore:
+      - "About Smelting:"
+      - " "
+      - "Gaining levels in the smelting skill will make more efficient"
+      - "use of fuel, improve odds ot smelting two for one and give"
+      - "additional experience."
+      - " "
+      - "XP Gain:"
+      - " "
+      - "Smelting is a child skill of mining and repair."
+      - "Put ores in furnaces to gain XP in the smelting skill."
+    left_click_commands:
+      - '[player] smeltinginfo'
+  'back':
+    material: PAPER
+    slot: 17
+    display_name: "Back to Previous Page"
+    left_click_commands:
+      - '[player] features'
+
+  

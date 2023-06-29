@@ -1,0 +1,17 @@
+menu_title: 'Claims Menu'
+open_command: claimmenu
+size: 9
+
+items:
+  'claiminfo':
+    material: DIAMOND
+    slot: 2
+    display_name: "Claim Info"
+    left_click_commands:
+      - '[player] claiminfo'
+  'flags':
+    material: GOLD_INGOT
+    slot: 6
+    display_name: "Claim Flags"
+    left_click_commands:
+      - '[player] cf'

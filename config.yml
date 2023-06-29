@@ -1,0 +1,26 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: HIGHEST
+check_updates: true
+gui_menus:
+  menu:
+    file: main_menu.yml
+  testmenu:
+    file: test_menu.yml
+  kits:
+    file: kits.yml
+  donorcommands:
+    file: donorcommands.yml
+  features:
+    file: features.yml
+  claimmenu:
+    file: claimmenu.yml
+  worldlist:
+    file: worldlist.yml
+  mcmmoinfo:
+    file: mcmmoinfo.yml
+  acrobaticsinfo:
+    file: acrobaticsinfo.yml
