@@ -8,8 +8,6 @@ check_updates: true
 gui_menus:
   menu:
     file: main_menu.yml
-  testmenu:
-    file: test_menu.yml
   kits:
     file: kits.yml
   donorcommands:
@@ -22,5 +20,3 @@ gui_menus:
     file: worldlist.yml
   mcmmoinfo:
     file: mcmmoinfo.yml
-  acrobaticsinfo:
-    file: acrobaticsinfo.yml

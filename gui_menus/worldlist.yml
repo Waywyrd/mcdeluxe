@@ -9,13 +9,13 @@ items:
     display_name: "Join Hub"
     left_click_commands:
       - '[player] server lobby'
-  'factions:'
+  'factions':
     material: GOLD_ORE
     slot: 1
     display_name: "Join Factions"
     left_click_commands:
       - '[player] server factions'
-  'survival'
+  'survival':
     material: COAL_ORE
     slot: 2
     display_name: "Join Survival"
@@ -27,3 +27,9 @@ items:
     display_name: "Join Skyblock"
     left_click_commands:
       - '[player] server skyblock'
+  'back':
+    material: PAPER
+    slot: 8
+    display_name: "Back to Previous Page"
+    left_click_commands:
+      - '[player] menu'

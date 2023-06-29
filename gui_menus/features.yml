@@ -7,6 +7,7 @@ items:
     material: GOLDEN_SHOVEL
     slot: 2
     display_name: "Grief Defender"
+    hide_attributes: true
     lore:
       - "Claim land with a golden shovel."
       - "Main Commands:"
@@ -45,6 +46,7 @@ items:
     material: DIAMOND_SWORD
     slot: 4
     display_name: "MCMMO"
+    hide_attributes: true    
     lore:
       - "This server runs mcMMO!"
       - "Train various skills for additional benefits as you level."
