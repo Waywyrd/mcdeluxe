@@ -10,8 +10,6 @@ gui_menus:
     file: main_menu.yml
   kits:
     file: kits.yml
-  donorcommands:
-    file: donorcommands.yml
   features:
     file: features.yml
   claimmenu:
